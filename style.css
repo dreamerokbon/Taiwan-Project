@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header {
+  background-color: #b8b8b8;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #3e3c3c;
+}
+
+nav ul {
+  padding-left: 1rem;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+
+nav ul li a {
+  color: rgb(190, 190, 190);
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.headerTitle {
+  font-size: 2.5rem;
+}
+
+.headerText {
+  font-size: 1.25rem;
+}
+
+main {
+  width: 100%;
+  display: flex;
+}
+
+section.left,
+section.right {
+  padding: 1.5rem;
+}
+
+section.right h4 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+section.right p {
+  padding: 1rem 0rem;
+}
+
+.active {
+  color: white;
+}
+
+section.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.right iframe {
+  border-radius: 30px;
+}
+
+/*agriculture page*/
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container div {
+  padding: 1rem 1.5rem;
+}
+
+.container ol {
+  padding: 1rem;
+}
+
+.container h5 {
+  color: red;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/*industralization page*/
+.indust-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.indust-container div {
+  padding: 1rem;
+}
+
+.indust-container .down {
+  display: flex;
+}
+
+/*economy page*/
+
+.eco-container {
+  padding: 1rem;
+}
+
+.eco-container img {
+  padding-top: 1rem;
+  width: 100%;
+}
+
+/*author page*/
+
+.myPicture {
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  margin: auto;
+}
+
+section.author-right h2 {
+  padding-top: 2rem;
+}
+
+section.author-right {
+  padding: 1rem;
+}
